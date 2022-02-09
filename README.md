@@ -2,18 +2,16 @@
 
 # Project Name
 
-> Description the project.
+> Portfolio: setup and mobile version skeleton
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML and CSS
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]
 
 
 ## Getting Started
@@ -42,15 +40,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@biruk-bereka]
+- Twitter: [@](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn]https://www.linkedin.com/in/biruk-bereka1212/
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
