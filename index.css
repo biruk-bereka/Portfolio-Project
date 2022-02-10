@@ -60,6 +60,91 @@ nav {
   display: none;
 }
 
+#mail-icon {
+  left: 4.17%;
+  right: 4.17%;
+  top: 12.5%;
+  bottom: 12.5%;
+}
+
+
+
+/* The headline-section  */
+
+.container {
+  background-color: #1c1a19;
+
+  /* background-image: url("icons/Illustration-header.png");
+  background-position: top 0 right 0;
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.top-container {
+  display: flex;
+}
+
+.top-container .social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  min-height: 90vh;
+}
+
+.content * {
+  width: 400px;
+}
+
+.top-container .social * {
+  padding: 10px;
+}
+
+.top-container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  padding-left: 40px;
+}
+
+.top-container.top-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 0;
+}
+
+#content-1 {
+  font-family: "Crete Round", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 81px;
+  color: #f55800;
+}
+
+#content-2 {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+}
+
+#content-3 {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #f4f5f7;
+}
+
 @media only screen and (max-width: 600px) {
   .nav-lists {
     display: none;
@@ -70,14 +155,38 @@ nav {
     padding-right: 30px;
   }
 
-  img {
+  .menu-bar img {
     width: 30px;
   }
-}
 
-#mail-icon {
-  left: 4.17%;
-  right: 4.17%;
-  top: 12.5%;
-  bottom: 12.5%;
+  .content * {
+    width: 327px;
+  }
+
+  #content-1 {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+  }
+
+  #content-2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #content-3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .top-container .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-container .social {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+  }
 }
