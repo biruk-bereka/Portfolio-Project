@@ -1,5 +1,83 @@
-* {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
   margin: 0;
-  box-sizing:border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  height: 80px;
+  background: #3e3c3c;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  padding: 20px 100px;
+}
+
+.nav-item .list {
+  display: inline;
+  padding: 20px;
+}
+
+#name {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  margin-left: 50px;
+  color: #fff;
+}
+
+.menu-bar {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-lists {
+    display: none;
+  }
+
+  .menu-bar {
+    display: block;
+    padding-right: 30px;
+  }
+
+  img {
+    width: 30px;
+  }
+}
+
+#mail-icon {
+  left: 4.17%;
+  right: 4.17%;
+  top: 12.5%;
+  bottom: 12.5%;
 }
