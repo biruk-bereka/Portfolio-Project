@@ -9,12 +9,6 @@
 
 - HTML and CSS
 
-## Live Demo (if available)
-
-[Live Demo Link]
-
-
-
 ## Authors
 
 👤 **Author1**
