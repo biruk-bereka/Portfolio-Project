@@ -184,7 +184,7 @@ nav {
   .welcome-section {
     background-image: url('./images/illustration-header-mobile.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: 262px 223px;
     background-color: #1c1a19;
     display: flex;
